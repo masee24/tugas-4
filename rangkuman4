@@ -1,0 +1,20 @@
+IF adalah salah satu pernyataan penyeleksian yang memungkinkan kita memanipulasi aliran jalannya program berdasarkan conditional expression conditional expression harus berupa bilangan Boolean atau operasi yang menghasilkan bilangan Boolean dan menyatakan benar atau salah atas expression tersebut.
+
+Ketika mesin eksekusi bertemu dengan penyeleksian if maka CPU akan memeriksa kebenaran dari conditional expression yang disebutkan, jika benar (true) maka perintah yang ada di dalamnya akan dijalankan, jika salah (false) maka akan memeriksa pernyataan else if (jika ada), hal itu dilakukan berulang satu demi satu hingga menemukan kondisi yang bernilai benar (true). 
+
+Jika tidak ditemukan maka akan melakukan perintah pernyataan else. Jika else tidak ada maka pernyataan if secara keseluruhan akan diabaikan.
+
+Jika evaluasi ekspresi bernilai benar (true) sesuai kondisi maka program akan melaksanakan perintah (pernyataan) di dalamnya. Jika tidak maka akan diabaikan dan beralih ke pilihan lain atau keluar dari pernyataan penyeleksian if.
+Cara kerja CPU dalam melaksanakan pernyataan if adalah; pertama CPU masuk dan mengevaluasi ekspresi yang tertera pada kondisi pernyataan if, jika bernilai benar (true) maka pernyataan-pernyataan di dalam pernyataan if akan dijalankan, setelah dijalankan maka CPU akan keluar dari keseluruhan pernyataan if. 
+
+Jika salah (false) dan disertakan pernyataan else if maka CPU akan mengevaluasi ekspresi pada else if, jika bernilai benar (true) maka akan dijalankan, jika salah (false) akan beralih ke-lainnya, hal itu terjadi berulang-ulang hingga menemukan kondisi yang bernilai benar. 
+jika dari semua pilihan tersebut tidak ada yang memiliki nilai benar (true) maka pernyataan secara keseluruhan if akan diabaikan atau menjalankan pernyataan else jika disertakan.
+CPU akan membaca program dari atas kebawah, jika telah menemukan kondisi yang benar (true) maka akan dijalankan dan keluar dari keseluruhan pernyataan if, tidak peduli jika ada pilihan alternative lainnya yang memiliki nilai benar (true) pada kondisi yang dimilikinya.
+
+Flow Control ( IF Dan Switch)
+Flow control (struktur kendali) dapat dibagi menjadi dua jenis yaitu , Struktur percabangan dan pengulangan (looping). Namun kali ini akan membahas struktus percabangan. Percabangan adalah perintah yang memungkinkan pemilihan atas perintah yang akan dijalankan sesuai dengan kondisi tertentu yang menentukan alur perjalanan program.
+1.	IF digunakan untuk satu kondisi saja. Jika pernyataan benar (terpenuhi) maka akan dijalankan, jika salah (tidak terpenuhi) maka diabaikan
+2.	IF … ELSE Perintah ini digunakan untuk lebih dari satu kondisi. Seperti biasa, perintah1 dan perintah2 bisa berbentuk blok yang terdiri dari beberapa perintah.
+3.	SWITCH Perintah ini digunakan sebagai alternatif pengganti dari sintaks if … else dengan else lebih dari satu. Switch, kondisi hanya dinyatakan dengan bilangan bulat atau karakter/string. Dengan perintah ini program percabangan akan semakin mudah dibuat dan dipelajari.
+
+
